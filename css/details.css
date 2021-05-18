@@ -1,0 +1,86 @@
+html{
+    font-size: 6.25%;
+}
+
+body{
+    width:100%;
+    background: #051d3b;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo{
+    margin: 37rem 0 0 32rem;
+}
+
+.header-search {
+    width: 752rem;
+    height: 56rem;
+    margin: 32rem 0 0 0;
+
+    background: rgba(255,255,255, .16);
+    border-radius: 8rem;
+    border: none;
+}
+
+.header-search::placeholder {
+    color: #FFFFFF;
+    opacity: 0.64;
+    font-weight: 400;
+
+    padding: 0 0 0 14rem;
+}
+
+.header-UserPic {
+    width: 32rem;
+    height: 32rem;
+
+    position: relative;
+    left: 258rem;
+    top: 19rem;
+}
+
+header p{
+    font-size: 16rem;
+    color: #FFFFFF;
+
+    position: relative;
+    left: -31rem;
+    top: 21rem;
+}
+
+nav{
+    height: 146rem;
+}
+
+nav h2{
+    height: 100%;
+    font-size: 12rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+
+    flex-wrap: wrap;
+
+    position: relative;
+    left: 32rem;
+    top: 40rem;
+}
+
+ul{
+    position: relative;
+    top: -50rem;
+}
+.nav-icons{
+    width: 48rem;
+    height: 48rem;
+}
+
+li{
+    text-decoration: none;
+}

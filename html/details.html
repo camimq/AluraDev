@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../css/details.css">
+        <link rel="stylesheet" href="../css/">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Detalhes AllDev</title>
+    </head>
+    <body>
+        <header>
+            <img class="header-logo" src="../img/logo.svg" alt="Logo Alura Deve"> 
+            <input class="header-search" type="text" placeholder="Busque por algo">
+            <img class="header-UserPic" src="../img/userPic/Photo.png" alt="Imagem do usuário">
+            <p> Harry </p>
+        </header>
+        <nav>
+            <h2>Menu</h2>
+            <ul>
+                <img class="nav-icons" src="../img/icons/ideIcon.svg" alt="Ícone para o editor de código">
+                <li class="nav-items"><a href="#"> Editor de Código </a></li>
+                <img class="nav-icons" src="../img/icons/communityIcon.svg" alt="Ícone para Comunidade.">
+                <li class="nav-items"><a href="#">Comunidade</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="project">
+                <div class="project-blackScreen">
+                    <div class="project-blackScreenHeader">
+                        <img src="../img/projects/redPing.svg">
+                        <img src="../img/projects/yellowPing.svg">
+                        <img src="../img/projects/greenPing.svg">
+                    </div>
+                    <div class="project-blackScreenBody">
+                        <p>const pluckDeep = key => obj => key.split('.').reduce((accum, key) => accum[key], obj)</p>
+
+                            <p></p>const compose = (...fns) => res => fns.reduce((accum, next) => next(accum), res)
+                            
+                            <p>const unfold = (f, seed) => {</p>
+                            <p>const go = (f, seed, acc) => {</p>
+                            <p>    const res = f(seed) </p>
+                            <p>    return res ? go(f, res[1], acc.concat([res[0]])) : acc </p>
+                            <p>   } </p>
+                            <p>  return go(f, seed, []) </p>
+                            <p>} </p>
+                    </div>
+                </div> 
+            </div>
+            <div class="project-hilight">
+                <button>Visualizar com highlight</button>
+            </div>
+            <aside>
+                <h3>Seu projeto</h3>
+                <input type="text" placeholder="Nome do seu projeto">
+                <input type="textarea" placeholder="Descrição do seu projeto">
+
+                <select name="languages" id="languages">
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="CSS">CSS</option>
+                    <option value="React">React</option>
+                    <option value="Nodejs">Node.js</option>
+                </select>
+                <input type="text">
+                <input type="submit" value="Salvar projeto">
+            </aside>
+        </main>
+    </body>
+</html>
