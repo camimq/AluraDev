@@ -14,7 +14,7 @@ As principais funcionalidades pedidas são: **um campo para selecionar a linguag
 ## Status do Projeto
 
 ### Parte 1
-- [ ] HTML
+- [x] HTML
 - [ ] CSS
 - [ ] Responsividade
 
